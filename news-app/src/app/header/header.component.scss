@@ -1,29 +1,165 @@
-
-
-.header-logo{
-  background-color: #12253E;
-  height: 118px;
+.header-section{
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  gap: 20%;
+}
+
+
+.header-title{
+  color: #000B72;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 
 }
 
-.social-media-item, .hamburguer-item{
-  color: white;
-  margin-top: 40px;
-  margin-left: 20px;
-}
-
-.header-logo h3{
-  color: white;
-  font-size: 28px;
-  padding-top: 40px;
-  padding-left: 20px;
+.header-items{
   display: flex;
+  gap: 30px;
+}
+.header-items a {
+  color:#3E3232;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+
+}
+.user-area{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search-input {
+  width: 350px;
+  height: 40px;
+  border-radius: 12px;
+  padding: 10px;
+  border: none;
+  background-color: #F5F5F5;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+
+
+
+}
+
+.user-icon-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+///
+.tag-section{
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
   justify-content: center;
-  font-family: "Roboto", sans-serif;
-  color: #FFDA0B;
+}
+
+
+.section-important-posts{
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  justify-content: center;
 }
 
 
 
+.example-header-image {
+  background-image: url('../../assets/card1.png');
+  background-size: cover;
+
+}
+.mat-card img{
+  position: relative;
+}
+
+.card-content {
+  position: relative;
+  overflow: hidden;
+  bottom: 0px;
+  width: 100%;
+  padding: 16px;
+  text-align: start;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #3E3232;
+  background-color: #ffff ;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+
+}
+
+.card-content img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-title{
+  font-size: 16px;
+  font-weight: 600;
+  color: #3E3232;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.card-text {
+  font-size: 14px;
+  color: #3E3232;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+  position: absolute;
+}
+
+
+//
+
+.custom-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 100%; // opcional, se quiser altura fixa
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .card-overlay {
+    position: absolute;
+    top: 85%; // ou ajuste: 50%, 65% etc.
+    left: 10px;
+    right: 10px;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+    h3 {
+      margin: 0 0 5px;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+    }
+
+    p {
+      margin: 0;
+      font-size: 12px;
+      color: #333;
+      padding-top: 5px;
+      font-family: "Poppins", sans-serif;
+
+    }
+  }
+}
